@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            portfolio    
+        </title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width=device-width initial-scale = 1.0">
+        <meta name = "author" content="Sarala">
+        <meta name="description" content="This is personal portfolio webpage. Thanks for visiting!"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav>
+            <h2>Sunkara Sarala</h2>
+            <ul class = "navigation">
+            <li><a href="#about" class = "nav-link">About </a></li>
+            <li><a href="#skills" class = "nav-link">Skills</a></li>
+            <li><a href="#projects" class = "nav-link">Projects</a></li>
+            <li><a href="#contact" class = "nav-link">Contact</a></li>
+        </ul>
+
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+          </button>
+        
+        </nav>
+        <section class="hero" id="about">
+            <img
+              src="assets\images\sarala.jpg"
+              alt="Sarala"
+              loading="lazy"
+              class="hero-img"
+            />
+
+            <div class="bio animate__animated animate__shakeX">
+              <h2 class="bio-title">About Me</h2>
+              <p class="bio-text">
+                Hi, I'm Sarala, I am an enthusiastic learner, love to explore advancements in technology.
+                I am proficient in Python, Java as well as I have knowledge about Data Structures, Database 
+                Management Systems, etc. I have decent problem-solving skills and web development skills and 
+                I want to enhance my skills, realize my potential, and make a constructive contribution. 
+                I'm also fascinated about Machine Learning and Cloud Computing.
+              </p>
+            </div>
+      </section>
+
+      <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+          I am from Hyderabad. Currently pursuing my final year of B-tech in Computer Science and Engineering at 
+          Malla Reddy College of Engineering and Technology. My CGPA is 9.12, and I had a wonderful schooling at 
+          NVR High School with a 9.8 GPA. From there, I went on to Sri Gayatri Junior College for my intermediate 
+          course (MPC), which I completed with a 97 percentage.
+        </p> 
+        <p>
+          I worked as a managing intern at GirlScript Foundation.  It is a non-profit organization that helps the
+          beginners in technology.<br>
+          Member of T-Tribe, an academic membership program launched by THub, that enables and empowers early-stage 
+          innovation.
+        </p>
+        <p>
+          I've worked on a few machine learning projects, and I'm currently focusing on cloud computing and 
+          am eager to learn more about emerging technologies.
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+  
+        <div class="skills-wrapper">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-html-5.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="HTML5"
+            />
+            <img
+              src="assets/icons/icons8-css3.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="CSS3"
+            />
+            <img
+              src="assets/icons/icons8-javascript.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="JVASCRIPT"
+            />
+          </div>
+
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-bootstrap.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="BOOTSTRAP"
+            />
+            <img
+              src="assets/icons/icons8-react-native.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="REACT NATIVE"
+            />
+            <img
+              src="assets/icons/icons8-git.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="GIT"
+            />
+          </div>
+  
+          <div class="third-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-python.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="PYTHON"
+            />
+            <img
+              src="assets/icons/icons8-java.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="JAVA"
+            />
+            <img
+              src="assets/icons/icons8-mysql-logo.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+              title="MYSQL"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="assets/images/fmd.jpeg"
+              alt="Face-Mask-Detection"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Face Mask Detection</h3>
+            <p class="project-details">
+              Detecting face masks using Python, Keras, OpenCV on real video streams. </p>
+              <p>
+              <small>As a result of the COVID-19 pandemic, our daily lives have been disrupted, as has global trade and mobility.
+              Wearing a protective face mask has become a new normal.Therefore, face mask detection has 
+              become a crucial task to help the global society.This project presents a simplified approch 
+              to acheive this purpose.</small>
+            </p>
+            <a href="https://github.com/sarala-2210/Face-Mask-Detection.git" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/wsg.jpg"
+              alt="Word-Scramble-Game"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Word Scramble Game</h3>
+            <p class="project-details">
+              Word Scramble Solver Strategy Game in HTML5 CSS3 and Javascript.</p>
+              <p>
+              <small>word-guessing-game, A game of Scrambled words. Try to unscramble words to score up. 
+              if get a word wrong three times the game will restart.</small>
+              
+            </p>
+            <a href="https://github.com/sarala-2210/Word-Scrambled-Game.git" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assets/images/smp.jpg"
+              alt="Stock-Market-Prediction"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Stock Market Prediction</h3>
+            <p class="project-details">
+              Stock Market Prediction with Sentiment Analysis using Python.</p>
+              <p><small> Predicting the best stocks to buy 
+              while day-trading the stock market is a dream for many seeking financial freedom.
+              The goal of this project is to use historical data in conjunction with sentiment analysis of twitter posts,
+               to create an intelligent stock trading bot that makes decisons regarding the trading of stocks.</small>
+            </p>
+            <a href="https://github.com/sarala-2210/Stock-Price-Prediction.git" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action= "https://formspree.io/f/xgedzark" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+              <input 
+              type="button" 
+              onclick="myFunction()" 
+              value="Reset"
+              id="reset-btn"
+              class="reset-btn">
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <div class="socials">
+        <a href="https://twitter.com/Sarala2210S" target="_blank"
+          ><img
+            src="assets/icons/icons8-twitter-circled.gif"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://instagram.com/sarala2210" target="_blank"
+          ><img
+            src="assets/icons/icons8-instagram.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.linkedin.com/in/sarala-sunkara-2210" target="_blank"
+          ><img
+            src="assets/icons/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/sarala-2210" target="_blank"
+          ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+        /></a>
+        </div>
+
+        <footer>
+          <p class="copy">&copy; Copyright 2022</p>
+          <p class="copy">
+            Built with &#x2661; by
+            <a href="https://www.linkedin.com/in/sarala-sunkara-2210" target="_blank">Sunkara Sarala</a>
+          </p>
+          <p>Email Id : s.sarala2210@gmail.com</p>
+          <p>Phone No. : 6302421869</p>
+      
+    </footer>
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    </body>
+    <script lang="text/javascript" src = "./index.js"></script>
+</html>
